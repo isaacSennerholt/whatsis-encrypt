@@ -1,0 +1,20 @@
+{
+  "name": "whatsis-encrypt",
+  "version": "1.0.0",
+  "description": "Encryption methods for Whatsis.",
+  "main": "lib",
+  "private": true,
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/jest",
+    "test-unit-all": "npm run test -- unit"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "20.0.4",
+    "prettier": "1.15.2"
+  }
+}
